@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles Morales. Homepage</title>
+    
+
+  <!--MATERIALIZE-->
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+
+<body>
+
+  <!--MENU-->
+  <nav class="menu-nav">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Miles Morales</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="appearances.html">Appearances</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+    <!-- gallery -->
+    <center>
+    <div class="your-class">
+        <div><img class="imgo" src="images/spider2.jpeg"></div>
+        <div><img class="imgo" src="images/spider3.jpeg"></div>
+        <div><img class="imgo" src="images/spider1.jpeg"></div>
+    </div>
+    </center>
+
+
+
+  <div class="lander-text">
+    <p class="lander-info"><b>Miles Morales</b>, in "Spider-Man: Into the Spider-Verse", is a Brooklyn teen who gets bitten by a special spider.<br> 
+      Suddenly, he has powers like wall-crawling and invisibility. He learns he's not the only Spider-Man and has to save his city from 
+      the villain, Kingpin.</p>
+  </div>
+
+
+
+  <!--FOOTER-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Copyright</h5>
+          <p class="grey-text text-lighten-4">Nike did not pay for the advertisement((<br>All pictures were downloaded legally</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links:</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/_667nikita_/" target="_blank">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.marvel.com/" target="_blank">Marvel</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://en.wikipedia.org/wiki/Miles_Morales" target="_blank">Wikipedia</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container-1">
+      © 2023 Nikita Production
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 10000,
+        arrows: false
+      });
+    });
+  </script>
+
+
+  <!--MATERIALIZE-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

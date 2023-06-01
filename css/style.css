@@ -1,0 +1,157 @@
+body {
+    background-color: black
+}
+
+.page-footer {
+    background: #aa0e0e;
+}
+
+.nav-wrapper {
+    background: #aa0e0e;
+}
+
+.menu-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    z-index: 5;
+}
+.brand-logo {
+    margin-left: 30px;
+}
+
+.imgo {
+    width: 100%;
+    height: 100%;
+}
+
+.hide-on-med-and-down {
+    margin-right: 30px;
+}
+
+.your-class {
+    margin-top: 63px;
+}
+
+.lander-text {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.lander-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.container-1 {
+    margin: auto;
+}
+
+.bio-container {
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 300px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.bio-img {
+    width: 55%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.bio-text {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.trailer {
+    width: 1280px;
+    height: 720px;
+}
+
+.trailer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trailer-name {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.facts-h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.appearance {
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    max-width: 40%;
+    height: 750px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.app-item img {
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+}
+
+.app-text {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.app-text h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.grey-text {
+    margin-left: 5px;
+}
